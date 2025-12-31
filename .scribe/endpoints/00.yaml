@@ -1,0 +1,1267 @@
+name: Endpoints
+description: ''
+endpoints:
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/webhook/dojah
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/kyc/webhook
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: api/ping
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: '{"message":"API is working \ud83d\ude80"}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: api/loan_payment_reminder
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: '{"message":"No pending repayments due soon."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: api/auto-process-loans
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: '{"success":true,"message":"Loan payments processed successfully."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: register
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Display the registration view.'
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: |
+          <!DOCTYPE html>
+          <html lang="en">
+            
+          <!-- Mirrored from themes.pixelstrap.com/fuzzy/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Sep 2025 07:34:33 GMT -->
+          <head>
+              <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <meta name="description" content="fuzzy" />
+              <meta name="keywords" content="fuzzy" />
+              <meta name="author" content="fuzzy" />
+              <link rel="manifest" href="manifest.json" />
+              <title>Aurelius</title>
+              <meta name="theme-color" content="#122636" />
+              <meta name="apple-mobile-web-app-capable" content="yes" />
+              <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+              <meta name="apple-mobile-web-app-title" content="fuzzy" />
+              <meta name="msapplication-TileImage" content="assets/images/logo/favicon.png" />
+              <meta name="msapplication-TileColor" content="#FFFFFF" />
+              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+              <!--Google font-->
+              
+              <!-- iconsax css -->
+              <link rel="stylesheet" type="text/css" href="http://localhost/assets/css/vendors/iconsax.css" />
+              <!-- bootstrap css -->
+              <link rel="stylesheet" id="rtl-link" type="text/css" href="http://localhost/assets/css/vendors/bootstrap.min.css" />
+              <!-- Theme css -->
+              <link rel="stylesheet" id="change-link" type="text/css" href="http://localhost/assets/css/style.css" />
+            </head>
+
+            <body class="auth-body">
+            <style>
+            .auth-form .form-control {
+            color: rgb(0, 0, 0) !important;          /* Black text inside input */
+            background-color: rgb(255, 255, 255) !important; /* White background */
+            border: 1px solid rgba(0, 0, 0, 0.2) !important; /* Light border */
+          }
+
+          .auth-form .form-control::placeholder {
+            color: rgba(0, 0, 0, 0.5) !important; /* Slightly faded placeholder */
+          }
+
+
+
+              .action_modal-overlay {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  backdrop-filter: blur(8px);
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  z-index: 1000;
+                  opacity: 0;
+                  visibility: hidden;
+                  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+              }
+
+              .action_modal-overlay.active {
+                  opacity: 1;
+                  visibility: visible;
+              }
+
+              .action_modal {
+                  background: rgba(255, 255, 255, 0.95);
+                  backdrop-filter: blur(20px);
+                  border-radius: 20px;
+                  padding: 32px;
+                  max-width: 400px;
+                  width: 90%;
+                  box-shadow:
+                      0 25px 50px -12px rgba(0, 0, 0, 0.25),
+                      0 0 0 1px rgba(255, 255, 255, 0.3);
+                  transform: scale(0.9) translateY(20px);
+                  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+                  text-align: center;
+                  position: relative;
+              }
+
+              .action_modal-overlay.active .action_modal {
+                  transform: scale(1) translateY(0);
+              }
+
+              .action_modal-icon {
+                  width: 60px;
+                  height: 60px;
+                  margin: 0 auto 20px;
+                  border-radius: 50%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 28px;
+                  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+              }
+
+              .action_modal-icon.success {
+                  background: linear-gradient(135deg, #10b981, #059669);
+              }
+
+              .action_modal-icon.error {
+                  background: linear-gradient(135deg, #ef4444, #dc2626);
+              }
+
+              .action_modal-icon.info {
+                  background: linear-gradient(135deg, #3b82f6, #2563eb);
+              }
+
+              .action_modal-icon.warning {
+                  background: linear-gradient(135deg, #f59e0b, #d97706);
+              }
+
+              .action_modal-title {
+                  font-size: 22px;
+                  font-weight: 700;
+                  margin-bottom: 12px;
+                  color: #1f2937;
+              }
+
+              .action_modal-message {
+                  font-size: 16px;
+                  color: #6b7280;
+                  margin-bottom: 24px;
+                  line-height: 1.5;
+              }
+
+              .action_modal-btn {
+                  padding: 12px 28px;
+                  border: none;
+                  border-radius: 12px;
+                  font-size: 16px;
+                  font-weight: 600;
+                  cursor: pointer;
+                  background: linear-gradient(135deg, #3b82f6, #2563eb);
+                  color: white;
+                  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+                  transition: all 0.3s ease;
+              }
+
+              .action_modal-btn:hover {
+                  transform: translateY(-2px);
+                  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+              }
+          </style>
+
+          <!-- Modal HTML -->
+          <div class="action_modal-overlay" id="clipboardModal" onclick="closeClipboardModal(event)">
+              <div class="action_modal" onclick="event.stopPropagation()">
+                  <div class="action_modal-icon" id="modalIcon">
+                      <span id="modalIconText"><i class="fa fa-info-circle text-white"></i></span>
+                  </div>
+                  <h3 class="action_modal-title" id="modalTitle">Notice</h3>
+                  <p class="action_modal-message" id="modalMessage">This is a message.</p>
+                  <button class="action_modal-btn" onclick="closeClipboardModal()">Ok</button>
+              </div>
+          </div>
+
+          <!-- Modal JS -->
+          <script>
+              function showSessionModal(type, message) {
+                  const overlay = document.getElementById('clipboardModal');
+                  const icon = document.getElementById('modalIcon');
+                  const iconText = document.getElementById('modalIconText');
+                  const title = document.getElementById('modalTitle');
+                  const msg = document.getElementById('modalMessage');
+
+                  // Reset classes to allow proper icon color
+                  icon.className = 'action_modal-icon';
+
+                  if (type === 'success') {
+                      icon.classList.add('success');
+                      iconText.innerHTML = '<i class="fa fa-check-circle text-white"></i>';
+                      title.textContent = 'Success!';
+                  } else if (type === 'info') {
+                      icon.classList.add('info');
+                      iconText.innerHTML = '<i class="fa fa-info-circle text-white"></i>';
+                      title.textContent = 'Info';
+                  } else if (type === 'warning') {
+                      icon.classList.add('warning');
+                      iconText.innerHTML = '<i class="fa fa-exclamation-triangle text-white"></i>';
+                      title.textContent = 'Warning';
+                  } else if (type === 'error') {
+                      icon.classList.add('error');
+                      iconText.innerHTML = '<i class="fa fa-times-circle text-white"></i>';
+                      title.textContent = 'Error';
+                  } else {
+                      icon.classList.add('info');
+                      iconText.innerHTML = '<i class="fa fa-info-circle text-white"></i>';
+                      title.textContent = 'Notice';
+                  }
+
+                  msg.textContent = message;
+                  overlay.classList.add('active');
+                  document.body.style.overflow = 'hidden';
+              }
+
+              function closeClipboardModal(event) {
+                  if (event && event.target !== event.currentTarget) return;
+
+                  const overlay = document.getElementById('clipboardModal');
+                  overlay.classList.remove('active');
+                  document.body.style.overflow = '';
+              }
+
+              // Close modal on Escape key press
+              document.addEventListener('keydown', function(event) {
+                  if (event.key === 'Escape') {
+                      closeClipboardModal();
+                  }
+              });
+
+              </script>
+
+          </style>
+              <!-- login section start -->
+              
+
+
+
+          <div class="auth-img">
+              <img class="img-fluid auth-bg"
+                  src="https://www.agrohandlers.com/uploaded_files/blog-pix/202309180828_ORGANIC-FOOD-STORE-BUSINESS-PLAN-IN-NIGERIA.jpg"
+                  alt="auth_bg" />
+              <div class="auth-content">
+                  <div>
+                      <h2>Create Account</h2>
+                      <h4 class="p-0">Join us today, it only takes a minute!</h4>
+                  </div>
+              </div>
+          </div>
+
+          <form class="auth-form" method="POST" action="http://localhost/register" enctype="multipart/form-data">
+              <input type="hidden" name="_token" value="HhXEJMJqOT9ElvoJXiB38YaBVDmOIhXhqbGXUdNM" autocomplete="off">    <div class="custom-container">
+
+                  
+                  <div class="form-group">
+                      <label for="first_name" class="form-label">First Name</label>
+                      <input type="text" id="first_name" name="first_name"
+                          class="form-control "
+                          placeholder="Enter First Name" value="" required>
+                              </div>
+
+                  
+                  <div class="form-group">
+                      <label for="last_name" class="form-label">Last Name</label>
+                      <input type="text" id="last_name" name="last_name"
+                          class="form-control "
+                          placeholder="Enter Last Name" value="" required>
+                              </div>
+
+                  
+                  <div class="form-group">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" id="email" name="email"
+                          class="form-control "
+                          placeholder="Enter Email" value="" required>
+                              </div>
+
+                  
+                  <div class="form-group">
+                      <label for="phone" class="form-label">Phone Number</label>
+                      <input type="text" id="phone" name="phone"
+                          class="form-control "
+                          placeholder="Enter Phone Number" value="" required>
+                              </div>
+
+                  
+                  <div class="form-group">
+                      <label for="state" class="form-label">State</label>
+                      <select name="state" id="state" class="form-control " required>
+                          <option value="">Loading States...</option>
+                      </select>
+                              </div>
+
+                  
+                  <div class="form-group">
+                      <label for="lga" class="form-label">Local Government Area (LGA)</label>
+                      <select name="lga" id="lga" class="form-control " required>
+                          <option value="">Select State First</option>
+                      </select>
+                              </div>
+
+                  <input type="hidden" name="country" value="Nigeria">
+
+                  
+                  <div class="form-group">
+                      <label for="employee_status" class="form-label">Employee Status</label>
+                      <select id="employee_status" name="employee_status"
+                          class="form-control " required>
+                          <option value="">Select Status</option>
+                          <option value="Employed">Employed</option>
+                          <option value="Non Student/Non Employed">Non Student / Non Employed</option>
+                          <option value="Trader">Trader</option>
+                          <option value="Student">Student</option>
+                      </select>
+                              </div>
+
+                  
+                  <div id="student_fields" style="display:none;">
+                      <div class="form-group">
+                          <label for="student_id" class="form-label">Student ID Card</label>
+                          <input type="file" id="student_id" name="student_id"
+                              class="form-control ">
+                                      </div>
+
+                      <div class="form-group">
+                          <label for="school_name" class="form-label">School Name</label>
+                          <input type="text" id="school_name" name="school_name"
+                              class="form-control "
+                              placeholder="Enter School Name">
+                                      </div>
+                  </div>
+
+          <div class="form-group">
+              <label for="referral_code" class="form-label">Referral Code (optional)</label>
+              <input type="text" id="referral_code" name="referral_code"
+                  class="form-control "
+                  placeholder="Enter referral code if any" value="">
+              </div>
+
+                  
+                  <div class="form-group position-relative">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" id="password" name="password"
+                          class="form-control "
+                          placeholder="Enter Password" required>
+                      <button type="button" class="toggle-password" onclick="togglePassword('password')"
+                          style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); border:none; background:transparent; cursor:pointer;">
+                          👁
+                      </button>
+                              </div>
+
+                  
+                  <div class="form-group position-relative">
+                      <label for="password_confirmation" class="form-label">Confirm Password</label>
+                      <input type="password" id="password_confirmation" name="password_confirmation"
+                          class="form-control" placeholder="Re-enter Password" required>
+                      <button type="button" class="toggle-password" onclick="togglePassword('password_confirmation')"
+                          style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); border:none; background:transparent; cursor:pointer;">
+                          👁
+                      </button>
+                  </div>
+
+                  
+                  <div class="submit-btn mt-3">
+                      <button type="button" class="btn auth-btn w-100" id="proceedBtn">
+                          <i class="fa fa-arrow-right"></i> Proceed
+                      </button>
+                  </div>
+
+                  <h4 class="signup mt-3">
+                      Already have an account?
+                      <a style="color:black; font-weight:bold;" href="http://localhost/login">Sign In</a>
+                  </h4>
+              </div>
+          </form>
+
+          <!-- Terms Modal -->
+          <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true"
+               data-bs-backdrop="static" data-bs-keyboard="false">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="termsModalLabel">Terms of Use</h5>
+                </div>
+
+                <div class="modal-body terms-content" style="max-height: 400px; overflow-y: auto; line-height: 1.6;">
+                  Not Set
+                </div>
+
+                <div class="modal-footer d-flex justify-content-between terms-footer" style="display: none; opacity: 0; transition: opacity 0.3s ease;">
+                  <button  type="button" class="btn btn-dark" data-bs-dismiss="modal">Decline</button>
+                  <button style="background:darkorange; color:white;" type="button" class="btn btn-warning" id="acceptTermsBtn">Accept</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              const modal = document.getElementById('termsModal');
+
+              modal.addEventListener('shown.bs.modal', function() {
+                  const termsBody = modal.querySelector('.terms-content');
+                  const footer = modal.querySelector('.terms-footer');
+
+                  // Always hide the buttons first when modal opens
+                  footer.style.display = 'none';
+                  footer.style.opacity = '0';
+
+                  if (termsBody && footer) {
+                      // When user scrolls
+                      termsBody.addEventListener('scroll', function onScroll() {
+                          const scrollPosition = termsBody.scrollTop + termsBody.clientHeight;
+                          const scrollHeight = termsBody.scrollHeight;
+
+                          // If user reaches bottom of scrollable area
+                          if (scrollPosition >= scrollHeight - 5) {
+                              footer.style.display = 'flex';
+                              setTimeout(() => footer.style.opacity = '1', 50);
+                          } else {
+                              // Hide again if user scrolls back up
+                              footer.style.opacity = '0';
+                              setTimeout(() => footer.style.display = 'none', 300);
+                          }
+                      });
+                  }
+              });
+          });
+          </script>
+
+
+          <script>
+          function togglePassword(fieldId) {
+              let field = document.getElementById(fieldId);
+              field.type = field.type === "password" ? "text" : "password";
+          }
+
+          document.addEventListener("DOMContentLoaded", function () {
+              const employeeStatus = document.getElementById("employee_status");
+              const studentFields = document.getElementById("student_fields");
+              const studentIdInput = document.getElementById("student_id");
+              const schoolNameInput = document.getElementById("school_name");
+
+              function toggleStudentFields() {
+                  if (employeeStatus.value === "Student") {
+                      studentFields.style.display = "block";
+                      studentIdInput.required = true;
+                      schoolNameInput.required = true;
+                  } else {
+                      studentFields.style.display = "none";
+                      studentIdInput.required = false;
+                      schoolNameInput.required = false;
+                      studentIdInput.value = "";
+                      schoolNameInput.value = "";
+                  }
+              }
+
+              employeeStatus.addEventListener("change", toggleStudentFields);
+              toggleStudentFields();
+
+              // Load states
+              fetch("http://localhost/locations/states")
+                  .then(res => res.json())
+                  .then(states => {
+                      let stateDropdown = document.getElementById("state");
+                      stateDropdown.innerHTML = '<option value="">Select State</option>';
+                      states.forEach(state => {
+                          stateDropdown.innerHTML += `<option value="${state.id}">${state.name}</option>`;
+                      });
+                  });
+
+              // Load LGAs
+              document.getElementById("state").addEventListener("change", function() {
+                  let selectedState = this.value;
+                  let lgaDropdown = document.getElementById("lga");
+                  if (selectedState) {
+                      lgaDropdown.innerHTML = '<option>Loading LGAs...</option>';
+                      fetch("http://localhost/locations/lgas/" + encodeURIComponent(selectedState))
+                          .then(res => res.json())
+                          .then(data => {
+                              lgaDropdown.innerHTML = '<option value="">Select LGA</option>';
+                              if (data.lgas) {
+                                  data.lgas.forEach(lga => {
+                                      lgaDropdown.innerHTML += `<option value="${lga}">${lga}</option>`;
+                                  });
+                              }
+                          });
+                  } else {
+                      lgaDropdown.innerHTML = '<option value="">Select State First</option>';
+                  }
+              });
+
+              // Proceed Button → Open Terms Modal
+              document.getElementById("proceedBtn").addEventListener("click", function() {
+                  let termsModal = new bootstrap.Modal(document.getElementById("termsModal"));
+                  termsModal.show();
+              });
+
+              
+          });
+
+
+          </script>
+
+          <script>
+          document.addEventListener("DOMContentLoaded", function () {
+              const form = document.querySelector(".auth-form");
+              const proceedBtn = document.getElementById("proceedBtn");
+              const acceptBtn = document.getElementById("acceptTermsBtn");
+
+              acceptBtn.addEventListener("click", async function () {
+                  const modalEl = document.getElementById("termsModal");
+                  const modalInstance = bootstrap.Modal.getInstance(modalEl);
+                  modalInstance.hide();
+
+                  // Clear previous validation messages
+                  document.querySelectorAll(".text-danger").forEach(el => el.innerHTML = "");
+
+                  // Disable the Proceed button and show spinner
+                  proceedBtn.disabled = true;
+                  proceedBtn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Processing...';
+
+                  const formData = new FormData(form);
+
+                  try {
+                      const response = await fetch(form.action, {
+                          method: "POST",
+                          headers: {
+                              "X-Requested-With": "XMLHttpRequest",
+                              "X-CSRF-TOKEN": document.querySelector("input[name='_token']").value,
+                          },
+                          body: formData
+                      });
+
+                      const data = await response.json();
+
+                      // Re-enable the Proceed button
+                      proceedBtn.disabled = false;
+                      proceedBtn.innerHTML = '<i class="fa fa-arrow-right"></i> Proceed';
+
+                      if (response.status === 422) {
+                          // Validation errors
+                          Object.keys(data.errors).forEach(field => {
+                              let input = document.querySelector(`[name="${field}"]`);
+                              if (input) {
+                                  let errorTag = input.parentElement.querySelector(".text-danger");
+                                  if (!errorTag) {
+                                      errorTag = document.createElement("small");
+                                      errorTag.classList.add("text-danger");
+                                      input.parentElement.appendChild(errorTag);
+                                  }
+                                  errorTag.innerHTML = data.errors[field][0];
+                              }
+                          });
+                      } else if (data.status === "success") {
+                          showSessionModal('success', data.message + ' Redirecting in 5sec')
+          setTimeout(() => {
+                  window.location.href = data.redirect;
+              }, 5000);            } else {
+                      showSessionModal('error', data.message || "An unexpected error occurred.");
+
+                      }
+
+                  } catch (error) {
+                      console.error(error);
+                                  showSessionModal('error', error.message || "Network error, please try again.");
+
+
+                      // Restore button if network fails
+                      proceedBtn.disabled = false;
+                      proceedBtn.innerHTML = '<i class="fa fa-arrow-right"></i> Proceed';
+                  }
+              });
+          });
+          </script>
+
+
+
+              <!-- login section end-->
+
+              <!-- iconsax js -->
+              <script src="http://localhost/assets/js/iconsax.js"></script>
+
+              <!-- bootstrap js -->
+              <script src="http://localhost/assets/js/bootstrap.bundle.min.js"></script>
+
+              <!-- script js -->
+              <script src="http://localhost/assets/js/script.js"></script>
+            </body>
+
+          </html>
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6Inl2T3pJSmpyWGQ3RUtzV3BHaUlVelE9PSIsInZhbHVlIjoiT2VSWjZmaDBMRS9SWUZZK2pmaGN1OTVQTGVTdGg0eWREV2hxQTUvVjNkVHhCaVlyV2NGdk96N3FBbmNaTkQ3dUJUL0xlTldWaW9tbGdRLzF1ejFRc1h4cTNVMk12aGl2bHJXK25ScTMydjZyYldHZFB1WXN2VytqdXRsSENvWFAiLCJtYWMiOiI2ZjA1NzNiODhiMTU3NzI0YTM1ZjFjM2Q0NmU2MTJlZjJjNThiY2U3MzdkYTA4YWFlNmM0YmMyNWEzYmZjYjgwIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:04 GMT; Max-Age=7200; path=/; samesite=lax; laravel_session=eyJpdiI6ImFRajQ5R01GTFZGemw4R01GSlFMS3c9PSIsInZhbHVlIjoiNEQ1NFlwQXcvWTR2Y0wzVllyOHR3TXdoQi9VKzhWVlVGVG9UNHlUVG9LM3MwM0lvNUcwMCtDTkI4OFNhMFF0ZkVvRTdmdG1jaEFXbmU3am9MQjV6MTBGeDVETWtpaEpIcWpBS0ZFeWJXSHA2aU5PZGZvQUxtelhNUmlYd05NSlkiLCJtYWMiOiI4ODNiMGZmMTllOWJhMjgwZGE2ODgzOGUwNmY2ODM2MDYxM2Q4NDk5ZDcyYTNlYjZjN2JlMDJiZDdiOGY3NzQ2IiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:04 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: forgot-password
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Display the password reset link request view.'
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: |
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Forgot Password</title>
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      background: #f9fafb;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 100vh;
+                      margin: 0;
+                  }
+
+                  .container {
+                      background: #fff;
+                      padding: 30px;
+                      border-radius: 12px;
+                      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+                      width: 100%;
+                      max-width: 400px;
+                  }
+
+                  h2 {
+                      text-align: center;
+                      margin-bottom: 20px;
+                      color: #333;
+                  }
+
+                  .text-muted {
+                      font-size: 14px;
+                      color: #555;
+                      margin-bottom: 20px;
+                  }
+
+                  label {
+                      font-weight: 600;
+                      display: block;
+                      margin-bottom: 8px;
+                      color: #444;
+                  }
+
+                  input[type="email"] {
+                      width: 100%;
+                      padding: 10px;
+                      border: 1px solid #ccc;
+                      border-radius: 8px;
+                      outline: none;
+                      font-size: 14px;
+                      transition: border-color 0.3s;
+                  }
+
+                  input[type="email"]:focus {
+                      border-color: #007bff;
+                  }
+
+                  .error {
+                      color: #e3342f;
+                      font-size: 13px;
+                      margin-top: 6px;
+                  }
+
+                  .btn {
+                      display: block;
+                      width: 100%;
+                      padding: 12px;
+                      background: #2563eb;
+                      color: white;
+                      border: none;
+                      border-radius: 8px;
+                      font-size: 15px;
+                      cursor: pointer;
+                      transition: background 0.3s;
+                  }
+
+                  .btn:hover {
+                      background: #1e40af;
+                  }
+
+                  .status-message {
+                      background: #d1fae5;
+                      color: #065f46;
+                      padding: 10px;
+                      border-radius: 6px;
+                      margin-bottom: 15px;
+                      font-size: 14px;
+                  }
+              </style>
+          </head>
+          <body>
+
+          <div class="container">
+          <div style="text-align:center;" class="brand-logo">
+                          <a href="#">
+                              <img style="width:120px; text-align:center;" src="http://localhost/logo.png" alt="Logo">
+                          </a>
+                      </div>
+
+              <h2>Forgot Password</h2>
+
+              <p class="text-muted">
+                  Forgot your password? No problem. Just let us know your email address and we’ll email you a password reset link that will allow you to choose a new one.
+              </p>
+
+              <!-- Session Status -->
+              
+              <!-- Forgot Password Form -->
+              <form method="POST" action="http://localhost/forgot-password">
+                  <input type="hidden" name="_token" value="HhXEJMJqOT9ElvoJXiB38YaBVDmOIhXhqbGXUdNM" autocomplete="off">
+                  <div>
+                      <label for="email">Email</label>
+                      <input id="email" type="email" name="email" value="" required autofocus>
+                              </div>
+
+                  <div style="margin-top: 20px;">
+                      <button style="background:darkorange;" type="submit" class="btn">Email Password Reset Link</button>
+                  </div>
+              </form>
+          </div>
+
+          </body>
+          </html>
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6InJnWDFDUm04NkptVGNsTFkzUGN1NkE9PSIsInZhbHVlIjoiRnhCWXFBdzRIWm1FejRsR3RLQUZTeGhHUXdsWmNQZUtGQWpUVXdxTmY4dHY5dG5iWTJyby9ody9LMkc2ZzJaaTBLNjloTEN2V00wNkFkZWNvdktubmt5U0lQREcxZ3RRZGVGVTRNcXEwdFlSekttQUZWNEVzY3FkVlYvMThhSHgiLCJtYWMiOiJlNTAyZTJlOWRmNGI3MDM2ZTQ0ODcwNTlhNDFhOTJjYjc1N2UxYmZhYTY0OGZhYWU4NGM0ZjY2YmRiZDU5MjE5IiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:04 GMT; Max-Age=7200; path=/; samesite=lax; laravel_session=eyJpdiI6ImhiN1d0TnlkZU9Xa1g3d09odGV6WXc9PSIsInZhbHVlIjoiUGloWDVOWVI1THJmWXJrU0FlS0dHeDg2MHdVL0NCRjJQZVVDZ2VnTEZvTUdjMGd2a3F3MHJWS3gzRVI4M1NDbUprQS8rZXhPY2R3L3h0ZmU3N055aDlmUHhNV2ZHWVVSTUJZM2tWQTBuMzRJQUNaenZMQW56QXBFL1lMMUpRR1ciLCJtYWMiOiI4ZGM3MmM4NjZlZjNiYzIyMDFmMWZjYzc3OWMwNTAyZDgyYjU3ZDhhN2EzODM3MWNjOGQ5ODc1ZjZkOTJjZmMwIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:04 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: 'get-lgas/{state}'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      state:
+        custom: []
+        name: state
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      state: architecto
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: '{"status":400,"message":"State with the requested ID does not exist"}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6InRXOG5mVWtyS29tZklvck5EclBPZ3c9PSIsInZhbHVlIjoiTlIxRVI4My9Tamg5RE9MaTMyK0h6TjJvZW1BQTJEZE1yUldOa0h4dUlOZW9HQ20xVXhJOEs3YjZONER5RE1MM0JjSHVnNUk5Q0svWHBCVm9BdkFSYTRZVUtjNlFRaVVHVlVTenJ1bHRyTVNaVmxUSmZEaS9ieWtxbmQ2NHRkcjYiLCJtYWMiOiI3ZjhhY2Q4MTgzY2Y2NjU5YTY4MjkzOTQyMzgxZmJlNGQ0MDNiODg1NmNlYWIxZmMxNDk3M2ZmMTg5MTg5ZDRmIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:06 GMT; Max-Age=7200; path=/; samesite=lax; laravel_session=eyJpdiI6InhJd21uRjZ5YUdRMUZnZlZLSitxNkE9PSIsInZhbHVlIjoiYTA4RklKa01PVFV6TXJQTHdZRWM4ZEV4V2tRTG92RTFJOC8wTUNwM0svTVlBM3M2YTJ4KzVKSDd2Ym96cTNBTFlQZ0RvQm5GQm01V2NGMUhmRjErZERNbDZ5R3R5R3N5R0Jjd01kNFBiNDR1MW9pdjI1KzA0Zk9pbmZSMWQ1dEYiLCJtYWMiOiIwNmZmZjM3NTlkODEyZWRhMzVmZWJlOGEzN2Y5M2U1MDk0ODE5MWQ1ZWNjZTU0MjYwMzQ2OTA3OTZiYjcxZDRmIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:06 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: verify-email
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Display the email verification prompt.'
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6ImZBeC84YWJ6bmp5Zll5eXlZaHJUamc9PSIsInZhbHVlIjoiaVJ4M1FDYmNoeDg0aUFFVHJReE1weVdQaVJIcDNOb3VRUmZWbjRRczJyUHc1R0hVTHE4d2ZrMzlFSXFTemlpa2VnbzFETVpVZzNTQlZRb1J3YVE5MC9lbDZMNVBBeWFoN0dlUzVkaktVamN0b0xWbFRHSmFtQ1dKbThGbHhyRlUiLCJtYWMiOiI3Y2RlMWUzZTllZDZjMzJkY2Q1YmIwMWU0MzZiODdhYWY1OWQ3NWI0ZDRjYjc2Yzc5MzNlMWVlZDVkZDE0MDI5IiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:06 GMT; Max-Age=7200; path=/; samesite=lax; laravel_session=eyJpdiI6InY2UGZ5TWNQVzNISDhjejNVN3Q2bXc9PSIsInZhbHVlIjoiZGtSZnV1NHdYNlJKVGJVcTJCWGl1cXVzV3hxWkMvZFVmVzZ5UndQQXlLbm9xa2RVcUgrZmwvcmpoNXkwV3E3Mms5UlBwS08vOWN3dmYxRTNyMHEwRUd5V21NcDBYZkJjZVRLejV0NFpjYi9uWTd6bndPZjJVVlZON3ZMaGxhZU0iLCJtYWMiOiI4NWQ1ZWRhZTcwOTEwYWJkZTYxNGE2M2RhYjY2NzlmY2RlZjE5YTJhZTMzZmQ4OWIxZWQ2MjE3MDJiMDBmNWNmIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:06 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: email/verification-notification
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Send a new email verification notification.'
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: confirm-password
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Show the confirm password view.'
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          set-cookie: 'XSRF-TOKEN=eyJpdiI6Ikp3RGRSY0hNNWRzUjdiTHRpeHlwVUE9PSIsInZhbHVlIjoid3FWZW1VeC9sNGJaMktVV0JaYXdVQmdkaUYyRFUyMUxYVzZ4OTVycWdHMFBYMExKbTBONU50aUJLdWhRMFVpc01LQzZ3dkNZeVFsL2dENUE5V3Y1dTJKTzZVQnhtbWlESHVjbmgxQzluMVVWZnY0SGxqTUlIM3VQQTFhaTR1TW8iLCJtYWMiOiJiZDg0OGUwYTdhMzk5OTM1NTg2MDllZGM0MjcyMzJkYTM4MjdmMTY1YTQ1NGE4NTRjN2NjODIwMTk5ZmY0MmYyIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:06 GMT; Max-Age=7200; path=/; samesite=lax; laravel_session=eyJpdiI6IklueFNEUVVsdzBwVHhOWkRxb1hGalE9PSIsInZhbHVlIjoiY2g5dUZIRW9GM3k0TGZDSXpVQ2F4U1BmQjg4czVXVXhSM0xHNDlXbkhyQjZFT0NHcm5VVnhvREZ0ZVRua3hOMFR1bzJveWJ6UllNZjJSU1N5dzh3VGhwMUJYSy9XNUw2VEVnTjNPdlNBWHBmTjdKU1hOYUJLalQ1M21abW0wQlciLCJtYWMiOiJkMmQ3NTEwODdjNzZjNjI2OTgzNzJmZWUzNTA4NWIyZGQ0MDNjYWQ5MGY3YmVlZTk0M2U1MjJlM2U3NGFlYTkxIiwidGFnIjoiIn0%3D; expires=Tue, 30 Dec 2025 05:12:06 GMT; Max-Age=7200; path=/; httponly; samesite=lax'
+        description: null
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: confirm-password
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: "Confirm the user's password."
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - PUT
+    uri: password
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: "Update the user's password."
+      description: ''
+      authenticated: true
+      deprecated: false
+    headers:
+      Authorization: 'Bearer {YOUR_AUTH_KEY}'
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      current_password:
+        custom: []
+        name: current_password
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      password:
+        custom: []
+        name: password
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanBodyParameters:
+      current_password: architecto
+      password: architecto
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth:
+      - headers
+      - Authorization
+      - 'Bearer 6g43cv8PD1aE5beadkZfhV6'
+    controller: null
+    method: null
+    route: null
